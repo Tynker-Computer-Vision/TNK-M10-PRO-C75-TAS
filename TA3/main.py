@@ -9,7 +9,7 @@ from keras.layers import Conv2D,MaxPool2D,Dense,Dropout,BatchNormalization,Flatt
 from sklearn.model_selection import train_test_split
 from cvzone.FaceDetectionModule import FaceDetector
 
-path = "Face-image-dataset"
+path = "../Face-image-dataset"
 images = []
 ages = []
 gender = []
