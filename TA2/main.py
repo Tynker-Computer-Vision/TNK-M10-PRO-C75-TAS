@@ -43,7 +43,7 @@ for img in os.listdir(path)[0:10]:
 ages = np.array(ages,dtype=np.int64)
 images = np.array(images)
 
-training_images, testing_images, training_ages, testing_ages = train_test_split(images, ages, random_state=42)
+training_images, testing_images, training_ages, testing_ages = train_test_split(images, ages)
 print(":::::::::::::::::::::::::::::::::::::::::::::::::")
 print("Number of training images = ", len(training_images))
 print("Number of testing images = ", len(testing_images))
